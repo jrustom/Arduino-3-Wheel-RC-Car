@@ -36,7 +36,6 @@ void setup() {
   pinMode(right_light, OUTPUT);
 }
 
-// Going forward is (0,480), not moving is (480,520), going backwrads is (520,1023)
 void loop() {
   if (radio.available()){
   //Get joystick data from controller
