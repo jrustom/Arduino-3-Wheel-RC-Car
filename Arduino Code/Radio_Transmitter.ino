@@ -27,7 +27,7 @@ void loop() {
   //Collect joystick data
   y_value.right = analogRead(y_pin_right);
   y_value.left = analogRead(y_pin_left);
-  //Transmit joystick data
+  //Transmit joystick data &
   radio.write(&y_value, sizeof(y_value));
 
 }
